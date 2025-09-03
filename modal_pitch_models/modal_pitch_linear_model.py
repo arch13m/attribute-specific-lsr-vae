@@ -39,4 +39,4 @@ class LINEAR_LSR(nn.Module):
 model = LINEAR_LSR(LATENT_DIM)
 
 # Outputs a summary of the model for manual checks
-#summary(model, input_size=(1, 1, 128, 96))
+summary(model, input_size=(1, 1, 128, 96))
